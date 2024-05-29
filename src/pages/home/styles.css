@@ -1,0 +1,50 @@
+.conteudo{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background{
+    height: 90vh;
+    position: absolute;
+    left: 0px;
+}
+
+.informacoes{ 
+    width: 60%;
+    margin-right: 90px;
+    margin: 40px;
+}
+
+input{
+    border: 1px solid #999999;
+    border-radius: 25px;
+    min-width: 450px;
+    margin-right: 20px;
+    background: transparent;
+    padding: 10px;
+    font-size: 18px;
+
+}
+button{
+    border: 1px solid #999999;
+    border-radius: 25px;
+    min-width: 150px;
+    margin-right: 20px;
+    background: #2D333B;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.imgperfil{ 
+    display: flex;
+    flex-direction: row;
+   
+}
+.profile{
+    width: 11rem;
+    border-radius: 100%;
+    border: 2px solid white;
+}
