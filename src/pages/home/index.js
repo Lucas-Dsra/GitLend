@@ -7,7 +7,7 @@ import "./styles.css";
 
 function App() {
 	const [user, setUser] = useState('')
-
+	const [currentuser, setCurrentUser] = useState(null)
 	return (
 		<div className="App">
 			<Header></Header>
